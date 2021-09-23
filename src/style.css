@@ -20,6 +20,9 @@ h1 {
   font-size: 14px;
 }
 
+#pages-container {
+  max-width: 40%;
+}
 .pages-links-row {
   display: flex;
   justify-content: center;
@@ -29,7 +32,16 @@ h1 {
   font-size: 12px;
   padding: 10px;
 }
+a {
+  text-decoration: none !important;
+  color: rgb(7, 102, 31) !important;
+  font-weight: bolder;
+}
 
+a:hover {
+  cursor: pointer;
+  text-decoration: underline !important;
+}
 .croissant-image {
   display: flex;
   margin: 0 auto;
